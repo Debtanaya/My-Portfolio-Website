@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=DM+Serif+Display:ital@1&family=Signika:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sidebar {
+    background-color: lightblue;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: bold;
+}
+
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.Container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: white;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 80px;
+    color: blue;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Signika', sans-serif;
+    color: blueviolet;
+}
+
+.about {
+    font-size: 40px;
+    padding-left: 12px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22 px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+.devpic img {
+    height: 60vh;
+    border: 2px solid blue ;
+    padding: 10px 10px 10px 10px;
+}
+
+.ContactForm {
+
+    padding: 0 14px;
+    padding-top: 100px;
+    font-family: "Fira Sans" sans-serif;
+    margin: 0 88px;
+}
+
+.ContactForm h1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    padding: 12px 0;
+    font-size: 70px;
+    color:purple
+
+}
+
+.ContactForm form div {
+
+    padding: 17px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: blueviolet;
+}
+
+.ContactForm form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 14px;
+    color: blue;
+    margin: 0 3px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogContainer h1 {
+    margin: 35px;
+    padding: 0 12px;
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+}
+.blogContainer{
+    margin: 0 100px;
+    background-color: lightblue;
+    
+    
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    padding: 7px 7px;
+}
+
+
+
+.skill {
+    width: 265px;
+    height: 12px;
+    background-color: brown;
+    border:2px solid black;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.devinfo h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 15px;
+    color: purple;
+    font-size: 70px;
+}
+.devinfo p{
+    font-size: 20px;
+    padding: 20px 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkblue;
+}
+.devinfo i{
+    padding: 10px 10px ;
+}
+
+
+.devinfo h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 15px;
+    color: purple;
+    font-size: 50px;
+}
+
+.hundred{
+    width: 300px;
+    background-color: darkblue;
+}
+.s5{
+    width: 225px;
+    background-color: darkblue;
+}
+.fifty{
+    width: 150px;
+    background-color: darkblue;
+}
+.t5{
+    width:75px;
+    background-color: darkblue;
+}
+.tw5{
+    width: 37px;
+    background-color: darkblue;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 14px;
+    
+}
+.cross{
+    margin-left: 135px;
+    margin-top: 14px;
+}
+.PG{
+    color: darkblue;
+    font-size: 35px;
+    padding: 15px 15px;
+}
+.BA{
+    color: darkblue;
+    font-size: 35px;
+    padding: 15px 15px;
+}
+.twe{
+    color: darkblue;
+    font-size: 35px;
+    padding: 15px 15px;
+}
+.ten{
+    color: darkblue;
+    font-size: 35px;
+    padding: 15px 15px;
+}
+
